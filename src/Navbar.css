@@ -1,0 +1,74 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif, 'Courier New', monospace;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  background: darkturquoise;
+}
+
+.banner {
+ padding: 20px 0 10px 0;
+ width: 1000px;
+ border-radius: 2rem;
+}
+
+.inputField {
+  font-size: 2rem;
+  border-radius: 5px;
+}
+
+.searchBtn {
+  background-color: gray;
+ color: white;
+ border: none;
+ border-radius: 5px;
+  font-size: 2rem;
+}
+
+.searchBtn:hover {
+  color: gray;
+  background-color: white;
+}
+
+.topBar {
+  font-size: 2rem;
+}
+
+.searchItem {
+padding-bottom:2rem;
+
+}
+
+.productArticle {
+  display: block;
+}
+
+
+.productsImg{
+  height:200px;
+  width:200px;
+  border-radius:2em;
+  border:2px solid gold;
+  object-fit: cover;
+  /* display: block; */
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .productArticle {
+    grid-template-columns: 225px 1fr;
+  }
+  .productsImg {
+    height: 300px;
+    width: 300px;
+   }
+}
