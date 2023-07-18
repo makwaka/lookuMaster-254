@@ -16,50 +16,81 @@ const products = [
   {id: 1,
   name: 'bag1',
   price:'ksh.2000',
-  image:bag1
+  image:bag1,
+  category: 'bags'
   },
   {id: 2,
   name: 'bag2',
   price:'ksh.3000',
-  image:bag2
+  image:bag2,
+  category: 'bags'
+
   },
     {id: 3,
   name: 'bag3',
   price:'ksh.1500',
-  image:bag3
+  image:bag3,
+  category: 'bags'
   },
   {id: 4,
-  name: 'suit',
+  name: 'suit1',
   price:'ksh.10000',
-  image:suit1
+  image:suit1,
+  category: 'suit'
   },
   {id: 5,
   name: 'shoe1',
   price:'ksh.10000',
-  image:shoe1
+  image:shoe1,
+  category: 'shoes'
+
   },
   {id: 6,
   name: 'shoe2',
   price:'ksh.10000',
-  image:shoe2
+  image:shoe2,
+  category: 'shoes'
+
   },
   {id: 7,
   name: 'shoe3',
   price:'ksh.10000',
-  image:shoe3
+  image:shoe3,
+  category: 'shoes'
   },
     {id: 8,
   name: 'shoe4',
   price:'ksh.5000',
-  image:shoe4
+  image:shoe4,
+  category: 'shoes'
+  },
+  {id: 9,
+  name: 'suit2',
+  price:'ksh.10000',
+  image:suit2,
+  category: 'suit'
   },
 ]
 
+// intention of adding a filter button
+
+// const handleClick = () => {
+//   if(products.category === 'bags'){
+//     console.log('ff');
+//   }
+// }
+
+// const filter = () => <button type='button' onClick={handleClick}>bags</button>
 // map every product to show details
-const productList = products.map(product => (<article key={product.id} className='productArticle'><img className='productsImg' src={product.image} /><h3>{product.name}</h3><p>{product.price}</p></article>))
+const productList = products.map(product => (
+  <article key={product.id} className='productArticle'>
+<article className='category'>
+  <img className='productsImg' src={product.image} /><h3>{product.name}</h3><p>{product.price}</p>
+</article>
+</article>))
 
   return (
-    <div>
+    <div className='list'>
       {productList}
     </div>
   )

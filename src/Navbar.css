@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 body{
   font-family: sans-serif, 'Courier New', monospace;
   height: 100vh;
@@ -22,7 +23,7 @@ body{
 
 .inputField {
   font-size: 2rem;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .searchBtn {
@@ -47,8 +48,14 @@ padding-bottom:2rem;
 
 }
 
-.productArticle {
-  display: block;
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+
 }
 
 
@@ -56,17 +63,22 @@ padding-bottom:2rem;
   height:200px;
   width:200px;
   border-radius:2em;
-  border:2px solid gold;
+  border:4px solid gold;
   object-fit: cover;
-  /* display: block; */
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  margin: 2rem 0;
 }
 
 
 
 @media screen and (min-width: 768px) {
-  .productArticle {
+  /* .productArticle {
     grid-template-columns: 225px 1fr;
-  }
+  } */
   .productsImg {
     height: 300px;
     width: 300px;
