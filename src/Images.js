@@ -85,7 +85,7 @@ const products = [
 const productList = products.map(product => (
   <article key={product.id} className='productArticle'>
 <article className='category'>
-  <img className='productsImg' src={product.image} /><h3>{product.name}</h3><p>{product.price}</p>
+  <a href='#'><img className='productsImg' src={product.image} alt='product image' /></a><h3>{product.name}</h3><p>{product.price}</p>
 </article>
 </article>))
 

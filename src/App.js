@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Searchbar from './Searchbar';
 import Images from './Images';
 import Footer from './footer';
+import ProductPage from './ProductPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Searchbar />
      <Images />
      <Footer />
+     {/* <ProductPage /> */}
     </div>
   );
 }

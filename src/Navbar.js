@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div>
       <div className='topBar'>
-      <img src={banner} className='banner' alt='banner' />
+      <img src={banner} className='banner' alt='shop banner' />
       </div>
     </div>
   )
