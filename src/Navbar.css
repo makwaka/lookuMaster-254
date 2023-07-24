@@ -11,24 +11,29 @@ body{
   font-family: sans-serif, 'Courier New', monospace;
   height: 100vh;
   width: 100%;
-  display: grid;
+  margin: auto;
 }
 
 .banner {
- padding: 20px 0 10px 0;
- width: 1000px;
- border-radius: 1rem;
+  padding-top:1rem ;
+ max-width: 800px;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .inputField {
   font-size: 2rem;
   border-radius: 5px;
+  margin: 2rem 0;
+  border: 3px solid lightgray;
 }
 
 .searchBtn {
-  background-color: gray;
+ background-color: black;
  color: white;
- border: none;
+ border: transparent;
  border-radius: 4px;
   font-size: 2rem;
 }
@@ -52,8 +57,10 @@ padding-bottom:2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: space between;
+  row-gap: 2rem;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -62,13 +69,10 @@ padding-bottom:2rem;
   height:200px;
   width:200px;
   border-radius:10px;
-  border:4px solid gold;
+  border:4px solid white;
   object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem;
-  box-shadow: 5px 5px 10px 2px rgb(39, 37, 37);
+  margin: 1rem 5rem;
+  box-shadow: 5px 5px 10px 2px lightgray;
 }
 
 .productsImg:hover {
@@ -78,17 +82,11 @@ padding-bottom:2rem;
 
 .footer{
   margin: 2rem 0 0;
-  background-color: gray;
+  padding-top: 1rem;
+  background-color: lightgray;
 }
 
-
-
-@media screen and (min-width: 768px) {
-  /* .productArticle {
-    grid-template-columns: 225px 1fr;
-  } */
-  .productsImg {
-    height: 300px;
-    width: 300px;
-   }
+.web-by {
+  padding-top: 1rem;
+  font-size: 16px;
 }
