@@ -8,8 +8,7 @@ function footer() {
     </h5>
     <a  href='tel: O706822662'>O706822662</a> <p> OR </p>
     <a  href='tel: O775858585'>O775858585</a>
-    <a href='pharisnjuguna22@gmail.com'><p className='web-by'>Website by fariq</p></a>
-
+    <a href = "mailto: pharisnjuguna22@gmail.com">Designed by Fariq</a>
   </article>
     </div>
   )
