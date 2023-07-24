@@ -16,7 +16,6 @@ handleSearchChange = (event) => {
   })
 }
 
-
   render() {
     return (
       <div>

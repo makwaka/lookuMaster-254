@@ -13,7 +13,6 @@ function footer() {
   </article>
     </div>
   )
-
 }
 
 export default footer
