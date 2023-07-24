@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/lookuMaster-254/static/css/main.000be082.css",
+    "main.js": "/lookuMaster-254/static/js/main.9ce658f0.js",
+    "static/js/787.8914d121.chunk.js": "/lookuMaster-254/static/js/787.8914d121.chunk.js",
+    "static/media/banner.jpg": "/lookuMaster-254/static/media/banner.d3f8be118746db225898.jpg",
+    "static/media/bag3.jpg": "/lookuMaster-254/static/media/bag3.f94f56f0eb836e4482ab.jpg",
+    "static/media/shoe3.jpg": "/lookuMaster-254/static/media/shoe3.8c660e07613c7b895252.jpg",
+    "static/media/shoe4.jpg": "/lookuMaster-254/static/media/shoe4.125ba4d4ee18f4442c4e.jpg",
+    "static/media/bag2.jpg": "/lookuMaster-254/static/media/bag2.6d9d6c86ac8cd0c482bb.jpg",
+    "static/media/shoe2.jpg": "/lookuMaster-254/static/media/shoe2.e2305a5eee564298a274.jpg",
+    "static/media/suit2.jpg": "/lookuMaster-254/static/media/suit2.aab2b2c889ddfefb8a2d.jpg",
+    "static/media/suit1.jpg": "/lookuMaster-254/static/media/suit1.438e48e6f2ecdfab329e.jpg",
+    "static/media/logo.svg": "/lookuMaster-254/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lookuMaster-254/index.html",
+    "main.000be082.css.map": "/lookuMaster-254/static/css/main.000be082.css.map",
+    "main.9ce658f0.js.map": "/lookuMaster-254/static/js/main.9ce658f0.js.map",
+    "787.8914d121.chunk.js.map": "/lookuMaster-254/static/js/787.8914d121.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.000be082.css",
+    "static/js/main.9ce658f0.js"
+  ]
+}
