@@ -9,20 +9,10 @@ class Searchbar extends Component {
     }
   }
 
-// what happens when one searches a product
-handleSearchChange = (event) => {
-  this.setState({
-    searchName: event.target.value
-  })
-}
-
   render() {
     return (
       <div>
-        <div className='searchItem'>
         <input type='text' placeholder='Search Item' className='inputField' />
-        <button className='searchBtn' value={this.state.searchName} onChange={this.handleSearchChange}>Search</button>
-        </div>
       </div>
     )
   }

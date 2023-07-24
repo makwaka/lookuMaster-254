@@ -7,52 +7,36 @@
 }
 
 body{
-  font-family: sans-serif, 'Courier New', monospace;
   height: 100vh;
   width: 100%;
-  margin: auto;
+  font-family: arial, sans-serif;
 }
 
 .banner {
   padding-top:1rem ;
-  width: 300px;
- margin: auto;
- display: flex;
- justify-content: center;
- align-items: center;
+  width: 200px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .inputField {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 5px;
-  margin: 2rem auto;
-  border: 3px solid lightgray;
+  margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
-}
+    box-shadow: 0 2px 5px 1px rgba(64, 60, 67, .16);
+      background: #fff;
+      min-height: 44px;
+      display: flex;
+          border: 1px solid transparent;
 
-.searchBtn {
- background-color: black;
- color: white;
- border: transparent;
- border-radius: 4px;
-  font-size: 2rem;
-  margin: auto;
-
-}
-
-.searchBtn:hover {
-  color: gray;
-  background-color: white;
 }
 
 .topBar {
   font-size: 2rem;
-}
-
-.searchItem {
-padding-bottom:2rem;
-margin:auto;
 }
 
 .list {
@@ -60,7 +44,7 @@ margin:auto;
   flex-direction: row;
   flex-wrap: wrap;
   row-gap: 2rem;
-  justify-content: space-between;
+  justify-content: space-around;
   justify-content: center;
   align-items: center;
 }
@@ -85,7 +69,8 @@ margin:auto;
 .footer{
   margin: 2rem 0 0;
   padding-top: 1rem;
-  background-color: lightgray;
+  background-color: #70757a;
+  line-height: 1rem;
 }
 
 .web-by {
@@ -99,4 +84,22 @@ margin:auto;
     width: 800px;
     padding-top:1rem ;
   }
+}
+
+@media screen and (max-width:370px) {
+  .inputField {
+    max-width: 150px;
+    font-size: 15px;
+  }
+  .banner{
+  width: 190px;
+  }
+
+  .productsImg {
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+      box-shadow: 2px 2px 5px 1px lightgray;
+  }
+
 }
