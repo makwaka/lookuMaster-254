@@ -16,11 +16,12 @@ handleSearchChange = (event) => {
   })
 }
 
+
   render() {
     return (
       <div>
         <div className='searchItem'>
-        <input type='text' placeholder='Search Item' className='inputField'/>
+        <input type='text' placeholder='Search Item' className='inputField' />
         <button className='searchBtn' value={this.state.searchName} onChange={this.handleSearchChange}>Search</button>
         </div>
       </div>

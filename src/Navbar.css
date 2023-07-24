@@ -16,7 +16,7 @@ body{
 
 .banner {
   padding-top:1rem ;
- max-width: 800px;
+  width: 300px;
  margin: auto;
  display: flex;
  justify-content: center;
@@ -26,8 +26,10 @@ body{
 .inputField {
   font-size: 2rem;
   border-radius: 5px;
-  margin: 2rem 0;
+  margin: 2rem auto;
   border: 3px solid lightgray;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .searchBtn {
@@ -36,6 +38,8 @@ body{
  border: transparent;
  border-radius: 4px;
   font-size: 2rem;
+  margin: auto;
+
 }
 
 .searchBtn:hover {
@@ -49,7 +53,7 @@ body{
 
 .searchItem {
 padding-bottom:2rem;
-
+margin:auto;
 }
 
 
@@ -71,6 +75,8 @@ padding-bottom:2rem;
   border-radius:10px;
   border:4px solid white;
   object-fit: cover;
+  background-image: none;
+  mix-blend-mode: multiply;
   margin: 1rem 5rem;
   box-shadow: 5px 5px 10px 2px lightgray;
 }
@@ -89,4 +95,13 @@ padding-bottom:2rem;
 .web-by {
   padding-top: 1rem;
   font-size: 16px;
+}
+
+/* When the screen size is 768px or bigger */
+@media screen and (min-width: 768px) {
+  .banner{
+    width: 800px;
+    padding-top:1rem ;
+  }
+
 }
