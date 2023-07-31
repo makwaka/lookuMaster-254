@@ -68,14 +68,52 @@ body{
 
 .footer{
   margin-top: 2rem;
-  padding-top: 1rem;
-  background-color: #70757a;
+  padding-top: 2rem;
+  background-color: black;
   line-height: 1rem;
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
 }
 
-.web-by {
-  padding-top: 1rem;
-  font-size: 16px;
+.icons {
+  border-right: 3px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.socials h5 {
+  padding-bottom: 2rem;
+}
+
+.socials h5 {
+  padding-bottom: 2rem;
+}
+
+.contacts h5 {
+  padding-bottom: 2rem;
+}
+
+.developer a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.contact-info a {
+  color: white
 }
 
 /* When the screen size is 768px or bigger */
@@ -85,6 +123,8 @@ body{
     padding-top:1rem ;
   }
 }
+
+
 
 @media screen and (max-width:370px) {
   .inputField {

@@ -1,14 +1,39 @@
 import React from 'react'
+import { Icon } from '@iconify/react';
+
 
 function footer() {
   return (
     <div>
   <article className='footer'>
-    <h5>For more information reach us on:
-    </h5>
-    <a  href='tel: O706822662'>O706822662</a> <p> OR </p>
+    <div className='socials'>
+    <h5>Our Socials </h5>
+    <div className='icons'>
+      <a href='#'>
+    <Icon icon="logos:facebook" style={{fontSize : "1.5rem"}} />
+      </a>
+      <a href='#'>
+    <Icon icon="skill-icons:instagram" style={{fontSize : "1.5rem"}} />
+      </a>
+      <a href='#'>
+    <Icon icon="skill-icons:twitter" style={{fontSize : "1.5rem"}}/>
+      </a>
+      <a href='#'>
+    <Icon icon="logos:tiktok-icon" style={{fontSize : "1.5rem"}} />
+      </a>
+    </div>
+    </div>
+     <div className='contacts'>
+    <h5>Reach Us Directly On: </h5>
+    <div className='contact-info'>
+  <a  href='tel: O706822662'>O706822662</a> <p> OR </p>
     <a  href='tel: O775858585'>O775858585</a>
+    </div>
+    </div>
+
+    <div className='developer'>
     <a href='pharisnjuguna22@gmail.com'><p className='web-by'>Website by fariq</p></a>
+    </div>
 
   </article>
     </div>
