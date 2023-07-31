@@ -28,6 +28,7 @@ function footer() {
     <div className='contact-info'>
   <a  href='tel: O706822662'>O706822662</a> <p> OR </p>
     <a  href='tel: O775858585'>O775858585</a>
+<<<<<<< HEAD
     </div>
     </div>
 
@@ -35,6 +36,9 @@ function footer() {
     <a href='pharisnjuguna22@gmail.com'><p className='web-by'>Website by fariq</p></a>
     </div>
 
+=======
+    <a href = "mailto: pharisnjuguna22@gmail.com">Designed by Fariq</a>
+>>>>>>> 4d5b0ae9edb8505bfc767aea31dd73278143cfda
   </article>
     </div>
   )
