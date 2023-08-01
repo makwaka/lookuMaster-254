@@ -35,7 +35,6 @@ function Searchbar() {
 //   console.log('to search')
 
 // }
-
   return (
     <div>
     <input type='text' placeholder='Search Item' className='inputField' />
