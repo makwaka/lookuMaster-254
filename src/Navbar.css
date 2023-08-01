@@ -128,16 +128,14 @@ body{
     max-width: 150px;
     font-size: 15px;
   }
-  
+
   .banner{
   width: 190px;
   }
-
   .productsImg {
     height: 100px;
     width: 100px;
     border: 2px solid white;
       box-shadow: 2px 2px 5px 1px lightgray;
   }
-
 }
