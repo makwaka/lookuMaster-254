@@ -25,6 +25,7 @@ body{
   font-size: 1.5rem;
   border-radius: 5px;
   margin: 0 auto;
+  border: none;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 2px 5px 1px rgba(64, 60, 67, .16);
@@ -32,7 +33,10 @@ body{
   min-height: 44px;
   display: flex;
   border: 1px solid transparent;
-
+}
+/* remove outline from all divs */
+*:focus {
+  outline: none;
 }
 
 .topBar {
@@ -74,16 +78,20 @@ body{
   color: white;
   display: grid;
   grid-template-columns: auto auto;
-  gap: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icons {
-  border-right: 3px solid gray;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
 }
+
+/* .icons:hover {
+  animation: bounce;
+} */
 
 .contact-info {
   display: flex;
@@ -108,7 +116,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: gray;
+    background-color: black;
 }
 
 .contact-info a {
@@ -123,6 +132,18 @@ body{
   }
 }
 
+/* When the screen size is 370px or smaller */
+@media screen and (max-width:570px){
+.footer{
+  display: block;
+}
+
+.contacts {
+  margin-top: 2rem;
+}
+}
+
+/* When the screen size is 370px or smaller */
 @media screen and (max-width:370px) {
   .inputField {
     max-width: 150px;

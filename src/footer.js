@@ -19,7 +19,7 @@ function footer() {
     <Icon icon="skill-icons:twitter" style={{fontSize : "1.5rem"}}/>
       </a>
       <a href='#'>
-    <Icon icon="logos:tiktok-icon" style={{fontSize : "1.5rem"}} />
+    <Icon icon="logos:tiktok-icon" style={{fontSize : "1.2rem"}} />
       </a>
     </div>
     </div>
@@ -30,11 +30,10 @@ function footer() {
     <a  href='tel: O775858585'>O775858585</a>
     </div>
     </div>
-    <div className='developer'>
-    <a href='mailto: pharisnjuguna22@gmail.com'><p className='web-by'>Website by fariq</p></a>
-    </div>
-
   </article>
+    <div className='developer'>
+       <a href='mailto: pharisnjuguna22@gmail.com'><p className='web-by'>Website by fariq</p></a>
+    </div>
     </div>
   )
 }
