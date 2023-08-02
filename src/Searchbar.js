@@ -25,9 +25,7 @@ import React, {useState, useEffect} from 'react'
 // import Products from './Images'
 
 
-
 function Searchbar(searchName) {
-
 const [item, setItem] = useState('')
 
   return (
