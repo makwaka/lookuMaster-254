@@ -26,19 +26,16 @@ import React, {useState, useEffect} from 'react'
 
 
 
-function Searchbar() {
+function Searchbar(searchName) {
 
-// const [item, setItem] = useState([])
-// Functionality for searching items
-// const handleClick = () => {
-//   const searchQuery = inputField.value.toLowerCase();
-//   console.log('to search')
+const [item, setItem] = useState('')
 
-// }
   return (
     <div>
-    <input type='text' placeholder='Search Item' className='inputField' />
-    <button type='button' ></button>
+      <form>
+    <input type='text' placeholder='Search Item' className='inputField' value={item} onChange={e => setItem(e.target.value)}  />
+    <button type='button'></button>
+      </form>
     </div>
   )
 }
