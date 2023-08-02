@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lookuMaster-254/static/css/main.0788110c.css",
-    "main.js": "/lookuMaster-254/static/js/main.876a8c9c.js",
+    "main.css": "/lookuMaster-254/static/css/main.3881f5d0.css",
+    "main.js": "/lookuMaster-254/static/js/main.ca2f078f.js",
     "static/js/787.8914d121.chunk.js": "/lookuMaster-254/static/js/787.8914d121.chunk.js",
     "static/media/banner.jpg": "/lookuMaster-254/static/media/banner.d3f8be118746db225898.jpg",
     "static/media/bag3.jpg": "/lookuMaster-254/static/media/bag3.f94f56f0eb836e4482ab.jpg",
@@ -13,12 +13,12 @@
     "static/media/suit1.jpg": "/lookuMaster-254/static/media/suit1.438e48e6f2ecdfab329e.jpg",
     "static/media/logo.svg": "/lookuMaster-254/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/lookuMaster-254/index.html",
-    "main.0788110c.css.map": "/lookuMaster-254/static/css/main.0788110c.css.map",
-    "main.876a8c9c.js.map": "/lookuMaster-254/static/js/main.876a8c9c.js.map",
+    "main.3881f5d0.css.map": "/lookuMaster-254/static/css/main.3881f5d0.css.map",
+    "main.ca2f078f.js.map": "/lookuMaster-254/static/js/main.ca2f078f.js.map",
     "787.8914d121.chunk.js.map": "/lookuMaster-254/static/js/787.8914d121.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0788110c.css",
-    "static/js/main.876a8c9c.js"
+    "static/css/main.3881f5d0.css",
+    "static/js/main.ca2f078f.js"
   ]
 }
