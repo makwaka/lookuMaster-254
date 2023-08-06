@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from "react-router-dom";
+import { useState } from 'react';
 import Navbar from './Navbar';
 import Searchbar from './Searchbar';
 import Images from './Images';
@@ -19,6 +20,10 @@ import shoe3 from './Assets/shoe3.jpg'
 import shoe4 from './Assets/shoe4.jpg'
 
 function App() {
+
+  // State handlers
+  const [searchFilter, setsearchFilter] = useState("")
+  // const [filterItems, setFilterItems] = useState("")
 
   const products = [
     {
@@ -92,11 +97,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Searchbar />
+      <Searchbar searchFilter={searchFilter} setsearchFilter={setsearchFilter} />
       <Routes>
         <Route path='*' element={<NotFound />} />
         <Route path='/'>
-          <Route index element={<Images products={products} />} />
+          <Route index element={<Images products={products} searchFilter={searchFilter} />} />
         </Route>
         <Route path='item/:id' element={<Item products={products} />} />
       </Routes>
