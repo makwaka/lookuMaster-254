@@ -24,8 +24,7 @@
 import React, { useState, useEffect } from 'react'
 // import Products from './Images'
 
-
-
+functional-filtering-search-bar
 function Searchbar({ searchFilter, setsearchFilter, setFilterItems }) {
 
   // const [item, setItem] = useState([])
@@ -55,7 +54,7 @@ function Searchbar({ searchFilter, setsearchFilter, setFilterItems }) {
       />
       {/* <button type='button' ></button> */}
     </form>
-  )
+
 }
 
 export default Searchbar

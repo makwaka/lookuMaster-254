@@ -19,6 +19,7 @@ import shoe2 from './Assets/shoe2.jpg'
 import shoe3 from './Assets/shoe3.jpg'
 import shoe4 from './Assets/shoe4.jpg'
 
+
 function App() {
 
   // State handlers
