@@ -46,11 +46,12 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 2rem;
+  row-gap: 1rem;
   justify-content: space-around;
   justify-content: center;
   align-items: center;
 }
+
 
 .productsImg{
   height:200px;
@@ -60,7 +61,7 @@ body{
   object-fit: cover;
   background-image: none;
   mix-blend-mode: multiply;
-  margin: 1rem 5rem;
+  margin: 1rem 5rem 0 5rem;
   box-shadow: 5px 5px 10px 2px lightgray;
   transition: transform 1s;
 }
@@ -78,6 +79,9 @@ body{
   grid-template-columns: auto auto;
   margin-left: auto;
   margin-right: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
 
 .icons {
