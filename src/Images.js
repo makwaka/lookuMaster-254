@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import bag1 from './Assets/bag1.jpg'
 import bag2 from './Assets/bag2.jpg'
 import bag3 from './Assets/bag3.jpg'
@@ -12,7 +12,7 @@ import shoe4 from './Assets/shoe4.jpg'
 
 // an array of objects to be displayed
 function Images() {
-const products = [
+const [data, setData] = useState([
   {id: 1,
   name: 'bag1',
   price:'ksh.2000',
@@ -70,29 +70,43 @@ const products = [
   image:suit2,
   category: 'suit'
   },
-]
+])
 
-// intention of adding a filter button
 
-// const handleClick = () => {
-//   if(products.category === 'bags'){
-//     console.log('ff');
-//   }
-// }
+const [filteredData, setFilteredData] = useState(data)
+const [filterValue, setFilterValue] = useState('')
 
-// const filter = () => <button type='button' onClick={handleClick}>bags</button>
 // map every product to show details
-const productList = products.map(product => (
+const productList = filteredData.map(product => (
   <article key={product.id} className='productArticle'>
 <article className='category'>
   <a href='#'><img className='productsImg' src={product.image} alt='product image' /></a><h3>{product.name}</h3><p>{product.price}</p>
 </article>
 </article>))
 
+
+const handleFilterChange = (e) => {
+  const value = e.target.value;
+  setFilterValue(value)
+
+const filtered = data.filter(item => item.name.toLocaleLowerCase().includes(value.toLocaleLowerCase()));
+
+setFilteredData(filtered)
+
+}
+
   return (
+    <>
+    <input type='text'
+    className='inputField'
+    placeholder='Search product here'
+    value={filterValue}
+    onChange={handleFilterChange}
+    />
     <div className='list'>
       {productList}
     </div>
+    </>
   )
 }
 
