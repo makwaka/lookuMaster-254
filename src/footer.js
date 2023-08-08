@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 function footer() {
   return (
-    <div>
+    <>
   <article className='footer'>
     <div className='socials'>
     <h5>Our Socials </h5>
@@ -30,11 +30,11 @@ function footer() {
     <a  href='tel: O775858585'>O775858585</a>
     </div>
     </div>
-  </article>
     <div className='developer'>
        <a href='mailto: pharisnjuguna22@gmail.com'><p className='web-by'>Website by fariq</p></a>
     </div>
-    </div>
+  </article>
+    </>
   )
 }
 

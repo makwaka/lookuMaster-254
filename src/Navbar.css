@@ -1,9 +1,8 @@
 *,
 ::before,
 ::after {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  padding: 0;
 }
 
 body{
@@ -63,7 +62,6 @@ body{
   mix-blend-mode: multiply;
   margin: 1rem 5rem;
   box-shadow: 5px 5px 10px 2px lightgray;
-      /* Animation */
   transition: transform 1s;
 }
 
@@ -73,10 +71,8 @@ body{
 }
 
 .footer{
-  margin-top: 2rem;
-  padding-top: 2rem;
   background-color: black;
-  line-height: 1rem;
+  line-height: 0.3rem;
   color: white;
   display: grid;
   grid-template-columns: auto auto;
@@ -92,9 +88,7 @@ body{
 }
 
 .icons a {
-      /* Animation */
   transition: transform .2s;
-  /* animation-name: bounce; */
 }
 
 .icons a:hover {
@@ -108,28 +102,22 @@ body{
   gap: 2rem;
 }
 
-.socials h5 {
-  padding-bottom: 2rem;
-}
-
-.socials h5 {
-  padding-bottom: 2rem;
-}
-
-.contacts h5 {
-  padding-bottom: 2rem;
-}
-
 .developer a{
   display: flex;
   align-items: center;
   justify-content: center;
   color: gray;
   background-color: black;
+  text-decoration: none !important;
 }
 
 .contact-info a {
-  color: white
+  color: white;
+  text-decoration: none !important;
+}
+
+.footer h5 {
+  text-decoration: underline;
 }
 
 /* When the screen size is 768px or bigger */
@@ -144,6 +132,7 @@ body{
 @media screen and (max-width:570px){
 .footer{
   display: block;
+  padding-top: 0.5rem;
 }
 
 .contacts {
