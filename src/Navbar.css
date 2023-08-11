@@ -5,10 +5,15 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   height: 100vh;
   width: 100%;
   font-family: arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .banner {
@@ -33,6 +38,12 @@ body{
   display: flex;
   border: 1px solid transparent;
 }
+
+input {
+  caret-color: red;
+  padding-left: 0.5rem;
+}
+
 /* remove outline from all divs */
 *:focus {
   outline: none;
@@ -50,6 +61,7 @@ body{
   justify-content: space-around;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 
 
@@ -79,7 +91,7 @@ body{
   grid-template-columns: auto auto;
   margin-left: auto;
   margin-right: auto;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100vw;
 }
